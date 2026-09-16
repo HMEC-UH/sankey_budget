@@ -22,11 +22,14 @@ Multiple inputs, outputs, and losses may be defined.
 
 ## Example
 
-The following example shows a steady-state power budget containing an
-internal storage loop.
+The following examples show a steady-state power budget with and without an internal storage loop.
 
 <p align="center">
-  <img src="docs/assets/example.png" width="750" alt="Steady-state power budget Sankey diagram">
+  <img src="docs/assets/example_storage.png" width="750" alt="With storage">
+</p>
+
+<p align="center">
+  <img src="docs/assets/example_no_storage.png" width="750" alt="Without storage">
 </p>
 
 ## Input File

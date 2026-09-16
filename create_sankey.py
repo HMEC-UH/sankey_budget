@@ -39,7 +39,7 @@ def plot_power_budget(data):
     sankey = Sankey(
         ax=ax,
         scale=0.005,
-        offset=0.0 if has_storage else 0.5,
+        offset=0.0,
         head_angle=120
     )
 
@@ -72,14 +72,14 @@ def plot_power_budget(data):
         main_flows.append(-flow["value"])
         main_labels.append(flow["name"])
         main_orientations.append(0)
-        main_pathlengths.append(0.4 if has_storage else 0.2)
+        main_pathlengths.append(0.4)
 
     # Losses
     for flow in losses:
         main_flows.append(-flow["value"])
         main_labels.append(flow["name"])
         main_orientations.append(-1)
-        main_pathlengths.append(0.4 if has_storage else 0.2)
+        main_pathlengths.append(0.4)
 
     # Storage outlet
     if has_storage:

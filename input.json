@@ -29,11 +29,6 @@
             "name": "Nozzle",
             "type": "loss",
             "value": 5
-        },
-        {
-            "name": "Storage",
-            "type": "storage",
-            "value": 25
         }
     ]
 }
