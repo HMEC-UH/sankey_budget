@@ -20,6 +20,15 @@ The program checks this balance before generating the Sankey diagram. An invalid
 
 Multiple inputs, outputs, and losses may be defined.
 
+## Example
+
+The following example shows a steady-state power budget containing an
+internal storage loop.
+
+<p align="center">
+  <img src="docs/assets/example.png" width="750" alt="Steady-state power budget Sankey diagram">
+</p>
+
 ## Input File
 
 The system is defined using a JSON file containing a list of power flows. Each flow contains three fields:
