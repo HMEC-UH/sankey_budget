@@ -1,0 +1,39 @@
+{
+    "title": "Steady State Power Budget",
+    "flows": [
+        {
+            "name": "Wave Input",
+            "type": "input",
+            "value": 100
+        },
+        {
+            "name": "Hydraulic Output",
+            "type": "output",
+            "value": 50
+        },
+        {
+            "name": "Friction",
+            "type": "loss",
+            "value": 20
+        },
+        {
+            "name": "Rectifier",
+            "type": "loss",
+            "value": 15
+        },
+                {
+            "name": "Pipe",
+            "type": "loss",
+            "value": 10
+        },        {
+            "name": "Nozzle",
+            "type": "loss",
+            "value": 5
+        },
+        {
+            "name": "Storage",
+            "type": "storage",
+            "value": 25
+        }
+    ]
+}
